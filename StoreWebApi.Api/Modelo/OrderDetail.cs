@@ -25,15 +25,9 @@ namespace StoreWebApi.Api.Modelo
         [Column("Datadecimal_18_0", TypeName = "decimal(18, 2)")]
         public decimal Amount { get; set; }
 
-         public Product Product { get; set; }  
+        public Product Product { get; set; }
 
         // public ICollection<OrderDetail> ListaOrderDetail { get; set; }  // Poner en tabla dependiente
-
-
-
-
-
-
 
 
     }
